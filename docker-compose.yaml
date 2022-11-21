@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+    scb_enet:
+      build:
+        context: .
+        dockerfile: ./app/scb_enet/Dockerfile
+      environment:
+        PORT: 8080
+      ports:
+        - 8080:8080

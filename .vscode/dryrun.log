@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/agelcyber/Desktop/scamo/backend/SCBEasyNetScraper'
+go run app/scb_enet/main.go
+make: Leaving directory `/Users/agelcyber/Desktop/scamo/backend/SCBEasyNetScraper'
+ 
